@@ -1,0 +1,151 @@
+1.1.1
+print "Welcome to Python!"
+
+1.1.2
+# Write your code below!
+my_variable = 10
+
+1.1.3
+# Set the variables to the values listed in the instructions!
+
+my_int = 7
+my_float = 1.23
+my_bool = True
+
+1.1.4
+
+#my_int is set to 7 below. What do you think
+#will happen if we reset it to 3 and print the result?
+
+my_int = 7
+
+#Change the value of my_int to 3!
+
+my_int = 3
+
+#Here's some code that will print my_int to the console:
+#The print keyword will be covered in detail soon!
+
+print my_int
+
+1.1.5
+def spam():
+eggs = 12
+return eggs
+        
+print spam()
+
+1.1.6
+def spam():
+    eggs = 12
+    return eggs
+        
+print spam()
+
+1.1.7
+
+spam_variable = True
+eggs_variable = False
+
+spam = True
+eggs = False
+
+1.1.8
+#This is my new comment
+# i love coding
+
+mysterious_variable = 42
+
+1.1.9
+"""This is my new 
+multi-line comment"""
+""" i love coding
+and im learning a lot"""
+
+
+
+1.1.10
+# Set count_to equal to the sum of two big numbers
+
+count_to = 1 + 2
+
+count_to = 10 + 20
+print count_to
+
+1.1.11
+#Set eggs equal to 100 using exponentiation on line 3!
+
+eggs = 10 ** 2
+eggs = 10 ** 2
+
+print eggs
+
+
+1.1.12
+#Set spam equal to 1 using modulo on line 3!
+
+spam = 3 % 2
+spam = 3 % 2
+print spam
+
+
+1.1.13
+#This is a commnet
+# i love coding
+
+monty = True
+monty = True
+
+python = 1.234
+python = 1.234
+
+monty_python = python ** 2
+monty_pythin = python ** 2
+
+
+1.2.1
+
+# Assign the variable meal the value 44.50 on line 3!
+
+meal = 44.50
+meal = 44.50
+
+
+1.2.2
+meal = 44.50
+
+tax = 6.75 / 100
+tax = 6.75 / 100
+
+1.2.3
+# You're almost there! Assign the tip variable on line 5.
+
+meal = 44.50
+tax = 0.0675
+tip = 0.15 
+tip = 0.15
+
+1.2.4
+# Reassign meal on line 7!
+
+meal = 44.50
+tax = 0.0675
+tip = 0.15
+
+##meal = meal + meal * tax 
+meal = meal + meal * tax
+
+1.2.5
+
+# Assign the variable total on line 8!
+
+meal = 44.50
+tax = 0.0675
+tip = 0.15
+
+meal = meal + meal * tax
+##total = meal + meal * tip
+total = meal + meal * tip
+
+print("%.2f" % total)
+

@@ -1,0 +1,380 @@
+2.1.1
+# Set the variable brian on line 3!
+
+brian = "Always look on the bright side of life!"
+brian = "Hello life!"
+
+2.1.2
+# Assign your variables below, each on its own line!
+caesar = "Graham"
+praline = "John"
+viking = "Teresa"
+
+ceasar = "Graham"
+praline = "John"
+viking = "Teresa"
+
+# Put your variables above this line
+
+print caesar
+print praline
+print viking
+
+2.1.3
+# The string below is broken. Fix it using the escape backslash!
+
+'This isn\'t flying, this is falling with style!'
+
+
+2.1.4
+
+"""
+The string "PYTHON" has six characters,
+numbered 0 to 5, as shown below:
+
++---+---+---+---+---+---+
+| P | Y | T | H | O | N |
++---+---+---+---+---+---+
+  0   1   2   3   4   5
+
+So if you wanted "Y", you could just type
+"PYTHON"[1] (always start counting from 0!)
+"""
+##fifth_letter = "Y"
+fifth_letter = "Y"
+#"MONTY"[4]
+"MONTY"[4]
+print fifth_letter
+
+
+2.1.5
+parrot = "Norwegian Blue"
+print len(parrot)
+
+
+#parrot = "Norwegian Blue"
+#print len (parrot) 
+
+2.1.6
+parrot = "Norwegian Blue"
+
+print parrot.lower()
+#print parrot.lower()
+
+
+2.1.7
+parrot = "norwegian blue"
+
+print parrot.upper()
+#print parrot.upper()
+
+2.1.8
+"""Declare and assign your variable on line 4,
+then call your method on line 5!"""
+
+pi = 3.14
+print str(pi)
+
+#pi = 3.14
+#print str(pi)
+
+
+2.1.9
+ministry = "The Ministry of Silly Walks"
+
+print len(ministry) 
+print ministry.upper()
+
+#print len(ministry)
+#print ministry.upper()
+
+2.1.10
+"""Tell Python to print "Monty Python"
+to the console on line 4!"""
+
+print "Monty Python"
+print "Monty Python"
+
+
+2.1.11
+"""Assign the string "Ping!" to
+the variable the_machine_goes on
+line 5, then print it out on line 6!"""
+
+the_machine_goes = "Ping!"
+print the_machine_goes
+
+the_machine_goes = "Ping!"
+print the_machine_goes
+
+
+2.1.12
+
+ # Print the concatenation of "Spam and eggs" on line 3!
+
+print "Spam" + " and eggs"
+print "Spam" + " and eggs" 
+
+2.1.13
+# Turn 3.14 into a string on line 3!
+
+print "The value of pi is around " + str(3.14)
+print "The value of pi is around " + str(3.14)
+
+
+2.1.14
+string_1 = "Camelot"
+string_2 = "place"
+
+print "Let's not go to %s. 'Tis a silly %s." % (string_1, string_2)
+
+2.1.15
+
+name = raw_input("What is your name?")
+quest = raw_input("What is your quest?")
+color = raw_input("What is your favorite color?")
+
+print "Ah, so your name is %s, your quest is %s, " \
+"and your favorite color is %s." % (name, quest, color)
+
+print "Ah, so your name is %s, your quest is %s, " \
+"and your favorite color is %s." % (name, quest, color)
+
+2.1.16
+
+# Write your code below, starting on line 3!
+
+my_string = "String"
+print len(my_string)
+print my_string.upper()
+"""
+good = "string"
+print len("string")
+print "string".upper()
+"""
+
+
+2.2.1
+from datetime import datetime
+
+
+2.2.2
+from datetime import datetime
+
+now = datetime.now()
+
+print now
+
+#now = datetime.now()
+
+#print now
+
+
+2.2.3
+from datetime import datetime
+
+now = datetime.now()
+
+print now
+
+year = now.year
+print year
+
+month = now.month
+print month
+
+day = now.day
+print day
+
+"""
+current_year = now.year
+
+print current_year
+
+current_month = now.month
+
+print now.month
+
+current_day = now.day
+
+print now.day
+"""
+
+
+2.2.4
+from datetime import datetime
+
+now = datetime.now()
+print now
+
+year = now.year
+print year
+
+month = now.month
+print month
+
+day = now.day
+print day
+
+d = str(now.day)
+m = str(now.month)
+y = str(now.year)
+
+print '%s/%s/%s' % (m, d, y) 
+
+"""
+current_year = now.year
+
+print current_year
+
+current_month = now.month
+
+print now.month
+
+current_day = now.day
+
+print now.day
+
+str(now.month)
+str(now.day)
+str(now.year)
+
+print str(now.month) + "/" + str(now.day) + "/"+ str(now.year) 
+"""
+
+
+
+2.2.5
+from datetime import datetime
+
+now = datetime.now()
+print now
+
+year = now.year
+print year
+
+month = now.month
+print month
+
+day = now.day
+print day
+
+d = str(now.day)
+m = str(now.month)
+y = str(now.year)
+
+print '%s/%s/%s' % (m, d, y) 
+
+hour = now.hour
+print hour
+
+minute = now.minute
+print minute
+
+second = now.second
+print second
+
+s = str(now.second)
+m = str(now.minute)
+h = str(now.hour)
+
+print '%s:%s:%s' % (h, m, s)
+
+
+"""
+current_year = now.year
+
+print current_year
+
+current_month = now.month
+
+print now.month
+
+current_day = now.day
+
+print now.day
+
+str(now.month)
+str(now.day)
+str(now.year)
+
+print str(now.month) + "/" + str(now.day) + "/"+str(now.year) 
+
+current_hour = now.hour
+current_minute = now.minute
+current_second = now.second
+
+print str(now.hour) + ":" + str(now.minute) + ":"  + str(now.second)
+"""
+
+
+2.2.6
+from datetime import datetime
+
+now = datetime.now()
+print now
+
+year = now.year
+print year
+
+month = now.month
+print month
+
+day = now.day
+print day
+
+d = str(now.day)
+m = str(now.month)
+y = str(now.year)
+
+print '%s/%s/%s' % (m, d, y) 
+
+hour = now.hour
+print hour
+
+minute = now.minute
+print minute
+
+second = now.second
+print second
+
+sec = str(now.second)
+min = str(now.minute)
+hour = str(now.hour)
+
+print '%s:%s:%s' % (h, m, s)
+
+print '%s/%s/%s %s:%s:%s' % (m, d, y, hour, min, sec)
+
+"""
+current_year = now.year
+
+print current_year
+
+current_month = now.month
+
+print now.month
+
+current_day = now.day
+
+print now.day
+
+str(now.month)
+str(now.day)
+str(now.year)
+
+print str(now.month) + "/" + str(now.day) + "/"+str(now.year) 
+
+current_hour = now.hour
+current_minute = now.minute
+current_second = now.second
+
+print str(now.hour) + ":" + str(now.minute) + ":"  + str(now.second)
+
+date = str(now.month) + "/" + str(now.day) + "/" + str(now.year) 
+
+time = str(now.hour) + ":" + str(now.minute) + ":" + str(now.second)
+
+print date + " " + time
+"""
+

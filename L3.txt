@@ -1,0 +1,616 @@
+3.1.1
+def clinic():
+    print "You've just entered the clinic!"
+    print "Do you take the door on the left or the right?"
+    answer = raw_input("Type left or right and hit 'Enter'.").lower()
+    if answer == "left" or answer == "l":
+        print "This is the Verbal Abuse Room, you heap of parrot droppings!"
+    elif answer == "right" or answer == "r":
+        print "Of course this is the Argument Room, I've told you that already!"
+    else:
+        print "You didn't pick left or right! Try again."
+        clinic()
+
+clinic()
+
+
+3.1.2
+# Assign True or False as appropriate on the lines below!
+
+# Set this to True if 17 < 328 or to False if it is not.
+bool_one = True   # We did this one for you!
+
+# Set this to True if 100 == (2 * 50) or to False otherwise.
+bool_two = True
+
+# Set this to True if 19 <= 19 or to False if it is not.
+bool_three = True
+
+# Set this to True if -22 >= -18 or to False if it is not.
+bool_four = False
+
+# Set this to True if 99 != (98 + 1) or to False otherwise.
+bool_five = False
+
+
+"""
+bool_one = True
+
+bool_two = True
+
+bool_three = False
+
+bool_four = False
+
+bool_five = False
+"""
+
+3.1.3
+# Assign True or False as appropriate on the lines below!
+
+# (20 - 10) > 15
+bool_one = False    # We did this one for you!
+
+# (10 + 17) == 3**16
+# Remember that ** can be read as 'to the power of'. 3**16 is about 43 million.
+bool_two = False
+
+# 1**2 <= -1
+bool_three = False
+
+# 40 * 4 >= -4
+bool_four = True
+
+# 100 != 10**2
+bool_five = False
+
+
+
+"""
+bool_one = False
+
+bool_two = True
+
+bool_three = False
+
+bool_four = True
+
+bool_five = False
+"""
+
+3.1.4
+
+# Create comparative statements as appropriate on the lines below!
+
+# Make me true!
+bool_one = 3 < 5  # We already did this one for you!
+
+# Make me false!
+bool_two = 500 > 500**2
+
+# Make me true!
+bool_three = 400 < 4**40
+
+# Make me false!
+bool_four = 100 != 10 + (45 * 2)
+
+# Make me true!
+bool_five = 5 > -5
+
+"""
+# Make me true!
+bool_one = 4 != 4/2
+
+
+# Make me false!
+bool_two = 4 < 2
+
+# Make me true!
+bool_three = 5 < 10
+
+# Make me false!
+bool_four = 10 == 20/1
+
+# Make me true!
+bool_five = 2 != 3
+"""
+
+3.1.5
+
+"""
+     Boolean Operators
+---------------------------
+True and True is True
+True and False is False
+False and True is False
+False and False is False
+
+True or True is True
+True or False is True
+False or True is True
+False or False is False
+
+Not True is False
+Not False is True
+
+"""
+
+3.1.6
+bool_one = 2 > 3 and 2 > 5
+
+bool_two = False
+
+bool_three = False
+
+bool_four = True
+
+bool_five = True
+
+"""
+bool_one =  False
+
+bool_two = False
+
+bool_three = False
+
+bool_four = True
+
+bool_five = True
+"""
+
+3.1.7
+bool_one = True
+
+bool_two = True
+
+bool_three = False
+
+bool_four = True
+
+bool_five = False
+
+"""
+bool_one = True
+
+bool_two = True
+
+bool_three = False
+
+bool_four = True
+
+bool_five = False
+"""
+
+3.1.8
+bool_one = False
+
+bool_two = True
+
+bool_three = True
+
+bool_four = True
+
+bool_five = False
+
+
+"""
+bool_one = False
+
+bool_two = True
+
+bool_three = True
+
+bool_four = True
+
+bool_five = False
+"""
+
+3.1.9
+bool_one = False
+
+bool_two = True
+
+bool_three = True
+
+bool_four = True
+
+bool_five = False
+
+
+"""
+bool_one = False
+
+bool_two = True
+
+bool_three = True
+
+bool_four = True
+
+bool_five = False
+"""
+
+3.1.10
+# Use boolean expressions as appropriate on the lines below!
+
+# Make me false!
+bool_one = (2 <= 2) and "Alpha" == "Bravo"  # We did this one for you!
+
+# Make me true!
+bool_two = not False or True and True
+
+# Make me false!
+bool_three = not True and (False or False) and not False 
+
+# Make me true!
+bool_four = (not False or True) and not False
+
+# Make me true!
+bool_five = True and not False or (False and True)
+
+
+"""
+# Make me false!
+bool_one = False or False and False
+
+# Make me true!
+bool_two = False or True and True
+
+# Make me false!
+bool_three =  False or False and not True
+
+# Make me true!
+bool_four = True and True or False and not False
+
+# Make me true!
+bool_five = (True or False) and True and not False
+"""
+
+3.1.11
+
+response = "Y"
+#response = "Y"
+
+answer = "Left"
+if answer == "Left":
+    print "This is the Verbal Abuse Room, you heap of parrot droppings!"
+    
+# Will the above print statement print to the console?
+# Set response to 'Y' if you think so, and 'N' if you think not.
+
+
+3.1.12
+
+def using_control_once():
+    if 1 < 2:
+        return "Success #1"
+
+def using_control_again():
+    if 3 < 4:
+        return "Success #2"
+
+print using_control_once()
+print using_control_again()
+
+
+
+"""
+def using_control_once():
+    if 1 < 2:
+        return "Success #1"
+
+def using_control_again():
+    if 2 < 3:
+        return "Success #2"
+
+print using_control_once()
+print using_control_again()
+"""
+
+3.1.13
+answer = "'Tis but a scratch!"
+
+def black_knight():
+    if answer == "'Tis but a scratch!":
+        return True
+    else:             
+        return        False
+
+def french_soldier():
+    if answer == "Go away, or I shall taunt you a second time!":
+        return True
+    else:             
+        return        False
+
+
+"""
+answer = "'Tis but a scratch!"
+
+def black_knight():
+    if answer == "'Tis but a scratch!":
+        return True
+    else:             
+        return        # Make sure this returns False
+
+def french_soldier():
+    if answer == "Go away, or I shall taunt you a second time!":
+        return True
+    else:             
+        return        # Make sure this returns False
+"""
+
+
+3.1.14
+def greater_less_equal_5(answer):
+    if answer > 5:
+        return 1
+    elif  answer < 5:          
+        return -1
+    else:
+        return 0
+        
+print greater_less_equal_5(4)
+print greater_less_equal_5(5)
+print greater_less_equal_5(6)
+
+
+"""
+def greater_less_equal_5(answer):
+    if answer > 5:
+        return 1
+    elif      answer < 5  :  
+        return -1
+    else:
+        return 0
+        
+print greater_less_equal_5(4)
+print greater_less_equal_5(5)
+print greater_less_equal_5(6)
+"""
+
+3.1.15
+
+# Make sure that the_flying_circus() returns True
+def the_flying_circus():
+    if True and not True or True: 
+        return True
+        # Start coding here!
+        # Don't forget to indent
+        # the code inside this block!
+    elif 50 != 25 * 2:
+        return False
+        # Keep going here.
+        # You'll want to add the else statement, too!
+    else:
+        return True
+
+"""
+def the_flying_circus():
+     if True and not False or True:
+         return True
+     
+     elif 5 < 2:
+         return False
+         
+     else:
+        return True
+"""
+
+
+3.2.1
+None
+
+3.2.2
+print "Welcome to the English to Pig Latin translator!"
+print "Pig Latin"
+
+3.2.3
+print "Welcome to the English to Pig Latin translator!"
+
+original = raw_input("Enter a word:")
+#original = raw_input("Enter")
+
+3.2.4
+print "Welcome to the English to Pig Latin translator!"
+
+original = raw_input("Enter a word:")
+
+if len(original) > 0:
+    print original
+else:
+    print "empty"
+
+"""
+original = raw_input("Enter")
+
+if len(original):
+ print original
+else:
+ print "empty"
+"""
+
+3.2.5
+print "Welcome to the English to Pig Latin translator!"
+
+original = raw_input("Enter a word:")
+
+if len(original) > 0 and original.isalpha():
+    print original
+else:
+    print "empty"
+
+
+"""
+original = raw_input("Enter")
+
+if len(original) and original.isalpha():
+ print original
+ 
+else:
+ print "empty"
+"""
+
+
+3.2.6
+
+print "Welcome to the English to Pig Latin translator!"
+
+original1 = raw_input("Enter a word:")
+original2 = raw_input(123)
+original3 = raw_input("")
+
+if len(original3) > 0 and original3.isalpha():
+    print original3
+else:
+    print "empty"
+
+"""
+original = raw_input("Enter")
+
+original2 = raw_input("")
+
+original3 = raw_input(123)
+
+if len(original3) and original3.isalpha():
+ print original3
+
+ 
+else:
+ print "empty"
+"""
+
+3.2.7
+
+pyg = "ay"
+pyg = "ay"
+
+
+
+3.2.8
+pyg = 'ay'
+
+original = raw_input('Enter a word:')
+
+if len(original) > 0 and original.isalpha():
+    word = original.lower()
+    first = word[0]
+    print original
+else:
+    print 'empty'
+
+"""
+pyg = 'ay'
+
+original = raw_input('Enter a word:')
+word = original.lower()
+first = "word"[0]
+if len(original)>0 and original.isalpha() and original.lower():
+    print original
+else:
+    print 'empty'
+"""
+
+3.2.9
+pyg = 'ay'
+
+original = raw_input('Enter a word:')
+
+if len(original) > 0 and original.isalpha():
+    word = original.lower()
+    first = word[0]
+    new_word = word + first + pyg
+    print new_word
+else:
+    print 'empty'
+
+"""
+pyg = 'ay'
+original = raw_input('Enter a word:')
+word = original.lower()
+first = "word"[0]
+new_word = word + pyg
+if len(original)>0 and original.isalpha() and original.lower():
+    if first == "a" or "e" or "i" or "o" or "u": 
+        print new_word
+    
+    else:
+        print "consonant"
+    
+else:
+    print 'empty'
+"""
+
+3.2.10
+pyg = 'ay'
+
+original = raw_input('Enter a word:')
+
+if len(original) > 0 and original.isalpha():
+    word = original.lower()
+    first = word[0]
+    new_word = word + first + pyg
+    slice = new_word[1:]
+    new_word = slice
+    print new_word
+else:
+    print 'empty'
+
+
+"""
+pyg = 'ay'
+original = raw_input('Enter a word:')
+word = original.lower()
+first = "word"[0]
+
+if len(original)>0 and original.isalpha() and original.lower():
+    if first == ("a" or "e" or "i" or "o" or "u"): 
+        new_word = word + pyg
+        print new_word
+    
+    else:
+        slice = len(original)
+        new_word = word[1:] + first + pyg
+        print new_word
+    
+else:
+    print 'empty'
+"""
+
+3.2.11
+pyg = 'ay'
+
+original = raw_input('Enter a word:')
+
+if len(original) > 0 and original.isalpha():
+    word = original.lower()
+    first = word[0]
+    new_word = word + first + pyg
+    slice = new_word[1:]
+    new_word = slice
+    print new_word
+else:
+    print 'empty'
+
+
+"""
+pyg = 'ay'
+original = raw_input('Enter a word:')
+word = original.lower()
+first = "word"[0]
+
+if len(original)>0 and original.isalpha() and original.lower():
+    if first == ("a" or "e" or "i" or "o" or "u"): 
+        new_word = word + pyg
+        print new_word
+    
+    else:
+        slice = len(original)
+        new_word = word[1:] + first + pyg
+        print new_word
+    
+else:
+    print 'empty'
+"""
+
+
+
+
